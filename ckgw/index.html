@@ -1,0 +1,758 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="">
+    <meta name="description" content="CUNY Kähler Geometry Workshop, January 19-20, 2019 at City University of New York, New York City College of Technology, Brooklyn, New York">
+
+    <title>CUNY Kähler Geometry Workshop</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/resume.min.css" rel="stylesheet">
+    <link href="css/gallery.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link href="custom.css" rel="stylesheet">
+    <style>
+        .iframe-container {
+            position: relative;
+            width: 100%;
+            padding-bottom: 56.25%; /* Ratio 16:9 ( 100%/16*9 = 56.25% ) */
+        }
+
+            .iframe-container > * {
+                display: block;
+                position: absolute;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+                margin: 0;
+                padding: 0;
+                height: 100%;
+                width: 100%;
+            }
+
+        .map-responsive {
+            overflow: hidden;
+            padding-bottom: 56.25%;
+            position: relative;
+            height: 0;
+        }
+
+            .map-responsive iframe {
+                left: 0;
+                top: 0;
+                height: 100%;
+                width: 100%;
+                position: absolute;
+            }
+    </style>
+
+    <style>
+        .google-maps {
+            position: relative;
+            padding-bottom: 75%;
+            // This is the aspect ratio height: 0;
+            overflow: hidden;
+        }
+
+            .google-maps iframe {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100% !important;
+                height: 100% !important;
+            }
+    </style>
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-125852636-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-125852636-1');
+    </script>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js" type="text/javascript"></script>
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async></script>
+
+
+
+</head>
+
+<body id="page-top">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">
+            <span class="d-block d-lg-none">CUNY Kähler Geometry Workshop</span>
+            <span class="d-none d-lg-block">
+                <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="">
+            </span>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#speakers">Speakers</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#abstracts">Abstracts</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#schedule">Schedule <i class="fas fa-clock"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#registration">Registration</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#participants">List of Participants</i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#directions">Directions</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#accommodation">Accommodation</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#links">Links</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#photos">Photos</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container-fluid p-0">
+
+        <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
+            <div class="my-auto">
+                <h1 class="mb-0">
+                    CUNY
+                    <span class="text-primary">Kähler Geometry Workshop</span>
+                </h1>
+                <div class="subheading mb-5">
+                    January 19-20, 2019 · CUNY-City Tech · 285 Jay St, Brooklyn, New York<br><hr>
+                    Organizers: <a href="mailto:Mehdi.Lejmi@bcc.cuny.edu">Mehdi Lejmi</a> (CUNY-BCC) and <a href="mailto:ckoca@citytech.cuny.edu">Caner Koca</a> (CUNY-City Tech)
+
+                    <hr><p class="lead mb-3"><a href="#speakers">Speakers</a> · <a href="#abstracts">Abstracts</a> · <a href="#schedule">Schedule <i class="fas fa-clock"></i></a> · <a href="#registration">Registration</a> · <a href="#participants">Participants <i class="fas fa-users"></i></a> · <a href="#directions">Directions</a> · <a href="#accommodation">Accommodation</a> · <a href="#links">Links</a> · <a href="#photos">Photos</a></p>
+                </div>
+                <p class="lead mb-5">
+                    The aim of this workshop is to gather experts in the area of Kähler Geometry and to discuss recent
+                    developments in this field. The workshop will take place in the <b>Academic Building</b> of NYC College of
+                    Technology (CUNY-City Tech), <b>Room A105</b>. Click <a href="poster.pdf"  target="_blank"><b>here</b></a> for the conference poster.
+                </p>
+                <p>This workshop is supported in part by a PSC-CUNY ENHANCED Award (#61768-00 49)</p>
+            </div>
+        </section>
+
+        <hr class="m-0">
+
+        <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="speakers">
+            <div class="my-auto">
+                <h2 class="mb-5">Speakers <a href="#about"><i class="fa fa-arrow-up"></i></a></h2>
+                <p class="lead mb-5">List of speakers: (scroll down for abstracts) </p>
+                <div class="resume-item d-flex flex-column flex-md-row mb-5">
+                    <ul class="fa-ul mb-0">
+                        <li>
+                            <i class="fa-li fa fa-square"></i>
+                            <b>Vestislav Apostolov</b> (UQAM)
+                        </li>
+                        <li>
+                            <i class="fa-li fa fa-square"></i>
+                            <b>Tamas Darvas</b> (Maryland)
+                        </li>
+                        <li>
+                            <i class="fa-li fa fa-square"></i>
+                            <b>Weiyong He</b> (Oregon)
+                        </li>
+                        <li>
+                            <i class="fa-li fa fa-square"></i>
+                            <b>Hongnian Huang</b> (New Mexico)
+                        </li>
+                        <li>
+                            <i class="fa-li fa fa-square"></i>
+                            <b>Claude LeBrun</b> (Stony Brook)
+                        </li>
+                        <li>
+                            <i class="fa-li fa fa-square"></i>
+                            <b>Lars Sektnan</b> (UQAM and McGill)
+                        </li>
+                        <li>
+                            <i class="fa-li fa fa-square"></i>
+                            <b>Ben Sibley</b> (Simons Center, Stony Brook)
+                        </li>
+                        <li>
+                            <i class="fa-li fa fa-square"></i>
+                            <b>Christina Tonnesen-Friedman</b> (Union)
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </section>
+        <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="abstracts">
+            <div class="my-auto">
+                <h2 class="mb-5">Abstracts <a href="#about"><i class="fa fa-arrow-up"></i></a></h2>
+                <div class="resume-item d-flex flex-column flex-md-row">
+                    <div class="resume-content mr-auto">
+                        <h3 class="mb-0">Vestislav Apostolov</h3>
+                        <div class="subheading mb-3">From Einstein‒Maxwell to extremal Calabi  Kähler metrics and back</div>
+                        <p>
+                            <b>Abstract</b>: I will present an equivalence between conformally Einstein‒Maxwell Kähler <i>4</i>-manifolds
+                            and extremal Kähler <i>4</i>-manifolds in the sense of Calabi.  The corresponding pairs of Kähler metrics arise
+                            as transversal Kähler structures of Sasaki metrics on the same CR manifold,  and having commuting Sasaki‒Reeb vector
+                            fields. This correspondence extends to higher dimensions using the notion of a weighted extremal Kähler metric
+                            recently studied by Lahdili,   and thus illuminates several explicit constructions in Kähler and Sasaki geometry.
+                            It also leads  to new existence and non-existence results for extremal Sasaki metrics, suggesting a link between
+                            the notions of relative weighted K-stability of a polarized variety found by Lahdili, and relative K-stability
+                            of the Kähler cone corresponding to a Sasaki polarization, studied by Collins‒Székelyhidi and Boyer‒van Coevering.
+                            This is a joint work with D. Calderbank.
+                        </p>
+                    </div>
+                    <div class="resume-date text-md-right">
+                        <span class="text-primary"> </span>
+                    </div>
+                </div>
+
+                <div class="resume-item d-flex flex-column flex-md-row">
+                    <div class="resume-content mr-auto">
+                        <h3 class="mb-0">Tamas Darvas</h3>
+                        <div class="subheading mb-3">Uniform convexity in \(L^p\) Mabuchi geometry, the space of rays, and geodesic stability</div>
+                        <p>
+                            <b>Abstract</b>: We show that the \(L^p\) Mabuchi metric spaces are uniformly convex for \(p>1\),
+                            implying that these spaces are uniquely geodesic. Using this result we describe the metric geometry
+                            of \(L^p\) Mabuchi geodesic rays associated to a Kähler manifold.   Using the relative Kolodziej type
+                            estimate for complex Monge-Ampere equations and novel Laplacian estimates, we point out that any
+                            \(L^p\) geodesic ray can be approximated by rays having bounded Laplacian, with converging radial K-energy.
+                            We use these results to verify (the uniform version of) Donaldson's geodesic stability conjecture for rays
+                            with bounded Laplacian. This is joint work with C.H. Lu.
+                        </p>
+                    </div>
+                    <div class="resume-date text-md-right">
+                        <span class="text-primary"> </span>
+                    </div>
+                </div>
+
+                <div class="resume-item d-flex flex-column flex-md-row">
+                    <div class="resume-content mr-auto">
+                        <h3 class="mb-0">Weiyong He</h3>
+                        <div class="subheading mb-3">Chen-Cheng’s breakthrough on scalar curvature type equations on compact Kahler manifolds</div>
+                        <p>
+                            <b>Abstract</b>:  Recently Xiuxiong Chen and Jingrui Cheng have made a breakthrough on the existence of
+                            constant scalar curvature metrics  on compact Kähler manifolds, in view of Calabi-Donaldson program and
+                            Yau-Tian-Donaldson conjecture.
+
+                        <p>
+                            The essential new input is a highly nontrivial a priori estimates for scalar curvature type equation, which is a fully nonlinear fourth order elliptic PDE.
+                            We will discuss the exciting developments regarding the existence of constant scalar curvature metrics and their extensions.
+                        </p>
+                        </p>
+                    </div>
+                    <div class="resume-date text-md-right">
+                        <span class="text-primary"> </span>
+                    </div>
+                </div>
+
+                <div class="resume-item d-flex flex-column flex-md-row">
+                    <div class="resume-content mr-auto">
+                        <h3 class="mb-0">Hongnian Huang</h3>
+                        <div class="subheading mb-3">The smooth property of the Calabi flow.</div>
+                        <p>
+                            <b>Abstract</b>: In Kähler geometry, an interesting question is that how we can smooth
+                            a  weak Kähler metric. A lot of techniques have been developed to smooth a weak Kähler metric,
+                            e.g., the recent breakthrough of Chen-Cheng's work. In this talk, we will discuss how to use the
+                            Calabi flow to smooth weak Kähler metrics on an abelian surface.
+                        </p>
+                    </div>
+                    <div class="resume-date text-md-right">
+                        <span class="text-primary"> </span>
+                    </div>
+                </div>
+
+                <div class="resume-item d-flex flex-column flex-md-row">
+                    <div class="resume-content mr-auto">
+                        <h3 class="mb-0">Claude LeBrun</h3>
+                        <div class="subheading mb-3">Mass,  Kähler Manifolds, and Symplectic Geometry</div>
+                        <p>
+                            <b>Abstract</b>: In the author's previous joint work  with Hans-Joachim Hein,  a mass formula
+                            for asymptotically locally Euclidean (ALE) Kähler manifolds was proved, assuming only
+                            relatively weak   fall-off conditions on the metric. However, the
+                            case of real dimension \(4\) presented  technical difficulties that led us to require fall-off
+                            conditions in this special dimension that are  stronger than the   Chruściel
+                            fall-off conditions that sufficed  in higher dimensions.
+                            In this talk, I will explain how a new proof of the \(4\)-dimensional case, using ideas from
+                            symplectic geometry,
+                            shows that  Chruściel
+                            fall-off  suffices to imply all our main results in any dimension.
+                            In particular, I will explain why our Penrose-type inequality for the mass of
+                            an asymptotically Euclidean Kähler manifold always still holds, given only
+                            this very weak metric fall-off hypothesis.
+                        </p>
+                    </div>
+                    <div class="resume-date text-md-right">
+                        <span class="text-primary"> </span>
+                    </div>
+                </div>
+
+                <div class="resume-item d-flex flex-column flex-md-row">
+                    <div class="resume-content mr-auto">
+                        <h3 class="mb-0">Lars Sektnan</h3>
+                        <div class="subheading mb-3">
+                            Blowing up extremal Poincaré type manifolds
+                        </div>
+                        <p>
+                            <b>Abstract</b>: Metrics of Poincaré type are Kähler metrics defined on the complement \(X\backslash D\) of
+                            a smooth divisor D in a compact Kähler manifold \(X\) which near \(D\) are modeled on the product of a
+                            smooth metric on D with the standard cusp metric on a punctured disk in \(\mathbb{C}^n\). In this talk
+                            I will discuss an Arezzo-Pacard type theorem for such metrics. A key feature is an obstruction which
+                            has no analogue in the compact case, coming from additional cokernel elements for the linearisation
+                            of the scalar curvature operator. This condition is conjecturally related to ensuring the metrics
+                            remain of Poincaré type.
+                        </p>
+                    </div>
+                    <div class="resume-date text-md-right">
+                        <span class="text-primary"> </span>
+                    </div>
+                </div>
+
+                <div class="resume-item d-flex flex-column flex-md-row">
+                    <div class="resume-content mr-auto">
+                        <h3 class="mb-0">Ben Sibley</h3>
+                        <div class="subheading mb-3">Compact algebraic compactifications of Hermitian-Yang-Mills moduli space</div>
+                        <p>
+                            <b>Abstract</b>: A key aspect of gauge theory is finding a suitable compactification for the moduli
+                            space of instantons. For higher dimensional manifolds posessing certain additional geometric structures,
+                            Tian has defined a notion of instanton and made progress towards a compactification analogous to
+                            Uhlenbeck's compactification of the moduli space of anti-self-dual connections on a four-manifold.
+                            In the case when the base manifold is Kähler, and the bundle in question is hermitian, instantons which
+                            are unitary and give rise to a holomorphic structures are Hermitian-Yang-Mills connections. A sequence of
+                            such connections is known to bubble at most along a codimension 2 analytic subvariety, and so one might
+                            hope that there is a gauge theoretic  compactification which has the structure of a complex analytic space.
+                            I will attempt to explain why this true in the case when the base is projective. This gives a higher
+                            dimensional analogue of a theorem of Jun Li for algebraic surfaces. This is joint work with Daniel Greb,
+                            Matei Toma, and Richard Wentworth.
+                        </p>
+                    </div>
+                    <div class="resume-date text-md-right">
+                        <span class="text-primary"> </span>
+                    </div>
+                </div>
+
+                <div class="resume-item d-flex flex-column flex-md-row">
+                    <div class="resume-content mr-auto">
+                        <h3 class="mb-0">Christina Tonnesen-Friedman</h3>
+                        <div class="subheading mb-3">Kähler metrics with special geometries on a Koiso-Sakane Manifold</div>
+                        <p>
+                            <b>Abstract</b>: In this talk I will discuss various nice admissible Kähler metrics
+                            on the three dimensional complex manifold
+                            $$M=P({\mathcal O} \oplus {\mathcal O}(1,-1))\rightarrow {\mathbb C}{\mathbb P}^1 \times {\mathbb C}{\mathbb P}^1.$$
+                            By the famous result of Koiso and Sakane, \(M\) admits a Kähler-Einstein metric and thus \(M\) could appropriately be
+                            called a <i> Koiso-Sakane manifold</i>. Actually, due to work by Hwang and Guan, every Kähler class on \(M\) admits
+                            extremal Kähler metrics, as defined by Calabi. As is seen in older work with Apostolov, Gauduchon, and Calderbank,
+                            the Kähler  classes for which the Futaki invariant vanishes, and hence the extremal metric have constant scalar curvature
+                            (CSC), are explicitly determined.
+
+                        <p>
+                            On \(M\) (and perhaps some mild generalizations of \(M\)), I will discuss
+                            the existence of <i>weighted extremal metrics</i> (Apostolov, Calderbank,
+                            Gauduchon, Legendre, Maschler, and Lahdili).
+                            This part of the talk is based on recent work with Apostolov and Maschler.
+                        </p>
+
+                        <p>
+                            Time permitting, I will also talk a little bit about the <i>\(c\)-projective equivalency</i> (originally
+                            defined by Otsuki and Tashiro) that occurs between some of the CSC Kähler metrics on \(M\).
+                            This part of the talk is based on recent work with Boyer and Calderbank.
+                        </p>
+                        </p>
+                    </div>
+                    <div class="resume-date text-md-right">
+                        <span class="text-primary"> </span>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+        <hr class="m-0">
+
+
+        <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="schedule">
+            <div class="my-auto">
+                <h2 class="mb-5">Schedule<a href="#about"><i class="fa fa-arrow-up"></i></a></h2>
+                <p class="lead mb-5">Tentative Schedule: (scroll up for abstracts) </p>
+                <div class="resume-item d-flex flex-column flex-md-row mb-5">
+                    SATURDAY SCHEDULE
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th scope="col">Time</th>
+                                <th scope="col">Event</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">8:30 - 9:15	</th>
+                                <td>Registration and Coffee</td>
+
+                            </tr>
+                            <tr>
+                                <th scope="row">9:15 - 10:15</th>
+                                <td><b>Christina Tonnesen-Friedman</b></td>
+
+                            </tr>
+                            <tr>
+                                <th scope="row">10:30 - 11:30</th>
+                                <td><b>Weiyong He</b></td>
+
+                            </tr>
+                            <tr>
+                                <th scope="row">11:30 - 1:00</th>
+                                <td>Lunch</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">1:00 - 2:00</th>
+                                <td><b>Vestislav Apostolov</b></td>
+
+                            </tr>
+                            <tr>
+                                <th scope="row">2:15 - 3:15</th>
+                                <td><b>Tamas Darvas</b></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">3:15 - 3:45</th>
+                                <td>Coffee Break</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">3:45 - 4:45</th>
+                                <td><b>Lars Sektnan</b></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">4:45 - </th>
+                                <td>Discussions</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="resume-item d-flex flex-column flex-md-row mb-5">
+                    <p>
+                        SUNDAY SCHEDULE
+
+                        <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Time</th>
+                                    <th scope="col">Event</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">8:30 - 9:00	</th>
+                                    <td>Coffee</td>
+
+                                </tr>
+                                <tr>
+                                    <th scope="row">9:00 - 10:00</th>
+                                    <td><b>Claude LeBrun</b></td>
+
+                                </tr>
+                                <tr>
+                                    <th scope="row">10:15 - 11:15</th>
+                                    <td><b>Hongnian Huang</b></td>
+
+                                </tr>
+                                <tr>
+                                    <th scope="row">11:30 - 12:30</th>
+                                    <td><b>Ben Sibley</b></td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="registration">
+            <div class="my-auto">
+                <h2 class="mb-5">Registration <a href="#about"><i class="fa fa-arrow-up"></i></a></h2>
+                <p class="lead mb-5">Registration is <a href="https://docs.google.com/forms/d/e/1FAIpQLSeVzbYCuATZre79jfJLuTuYRjIEYnoXAKCua8YxLjVeZfds7A/viewform"><b>closed</b></a>.</p>
+            </div>
+        </section>
+
+        <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="participants">
+            <div class="my-auto">
+                <h2 class="mb-5">List of Participants <a href="#about"><i class="fa fa-arrow-up"></i></a></h2>
+                <p class="lead mb-5">
+
+                    <table class="table table-sm">
+                        <thead>
+                            <tr>
+                                <th scope="col">Name</th>
+                                <th scope="col">Affiliation</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Arash Givchi</td>
+                                <td>Rutgers</td>
+                            </tr>
+                            <tr>
+                                <td>Freid Tong</td>
+                                <td>Columbia</td>
+                            </tr>
+                            <tr>
+                                <td>Gideon Maschler</td>
+                                <td>Clark University</td>
+                            </tr>
+                            <tr>
+                                <td>Gregory Edwards</td>
+                                <td>University of Notre Dame</td>
+                            </tr>
+                            <tr>
+                                <td>Jordan Rainone</td>
+                                <td>Stony Brook University</td>
+                            </tr>
+                            <tr>
+                                <td>Jun Li</td>
+                                <td>University of Michigan</td>
+                            </tr>
+                            <tr>
+                                <td>Luis Fernandez</td>
+                                <td>CUNY BCC and GC</td>
+                            </tr>
+                            <tr>
+                                <td>Marlon de Oliveira Gomes</td>
+                                <td>Stony Brook University</td>
+                            </tr>
+                            <tr>
+                                <td>Matt Dellatorre</td>
+                                <td>Maryland</td>
+                            </tr>
+                            <tr>
+                                <td>Qi Yao</td>
+                                <td>CUNY GC</td>
+                            </tr>
+                            <tr>
+                                <td>Robert Lowry</td>
+                                <td>SUNY SCCC</td>
+                            </tr>
+                            <tr>
+                                <td>Ronan Conlon</td>
+                                <td>Florida International University</td>
+                            </tr>
+                            <tr>
+                                <td>Roy Berglund</td>
+                                <td>NYC College of Technology</td>
+                            </tr>
+                            <tr>
+                                <td>Scott Wilson</td>
+                                <td>Queens College, CUNY</td>
+                            </tr>
+                            <tr>
+                                <td>Selin Taskent</td>
+                                <td>Stony Brook University</td>
+                            </tr>
+                            <tr>
+                                <td>Siyi Zhang</td>
+                                <td>Princeton University</td>
+                            </tr>
+                            <tr>
+                                <td>Yusuf Gurtas</td>
+                                <td>QCC</td>
+                            </tr>
+
+
+                        </tbody>
+                    </table>
+
+
+
+
+
+                </p>
+            </div>
+        </section>
+
+        <hr class="m-0">
+
+        <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="directions">
+            <div class="my-auto">
+                <h2 class="mb-5">Directions to Campus/Hotel <a href="#about"><i class="fa fa-arrow-up"></i></a></h2>
+                <div class="iframe-container">
+                    <iframe src="https://www.google.com/maps/d/embed?mid=1WYMMZQvx5aeF7KuA4O4n422-hSzPs29P" width="640" height="480"></iframe>
+                </div>
+                <br>
+                <img src="https://mt.googleapis.com/vt/icon/name=icons/onion/SHARED-mymaps-container-bg_4x.png,icons/onion/SHARED-mymaps-container_4x.png,icons/onion/1502-shape_star_4x.png&highlight=ff000000,FF5252&scale=2.0" width="20" /> Conference Venue (NYCCT Academic Building)<br />
+                <img src="https://mt.googleapis.com/vt/icon/name=icons/onion/SHARED-mymaps-container-bg_4x.png,icons/onion/SHARED-mymaps-container_4x.png,icons/onion/1602-hotel-bed_4x.png&highlight=ff000000,9C27B0&scale=2.0" width="20" /> The Tillary Hotel - Brooklyn<br />
+                <br />
+                <div class="subheading mb-3">From JFK Airport</div>
+                <p>Take the Airtrain to Jamaica Station. Then take the LIRR to Penn Station. From Penn Station take the A or C line to get off at Jay Street-Metrotech station. The NYCCT Academic Building is a couple of blocks north.</p>
+                <div class="subheading mb-3">From Newark Airport</div>
+                <p>Take the Airtrain to Newark Liberty International Airport Train Station. Then take the Northeast Coridor train to Penn Station. From Penn Station take the A or C line to get off at Jay Street-Metrotech station. The NYCCT Academic Building is a couple of blocks north.</p>
+                <div class="subheading mb-3">From LaGuardia Airport</div>
+                <p>Take the Q33 Bus to Roosevelt Ave - Jackson Heights Subway Station. Then take the F train, and get off at Jay Street-Metrotech station. The NYCCT Academic Building is a couple of blocks north.</p>
+            </div>
+        </section>
+
+        <hr class="m-0">
+
+        <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="accommodation">
+            <div class="my-auto">
+                <h2 class="mb-5">Accommodation <a href="#about"><i class="fa fa-arrow-up"></i></a></h2>
+                <p>
+                    We have blocked a number of rooms at the <b>Tillary Hotel-Brooklyn </b>at a special rate ($129/night) for conference participants.
+                    The hotel is right next to the conference venue (NYCCT Academic Building).
+                </p>
+                <p>
+                    You can book your room at this special rate by clicking <a href="http://bookings.ihotelier.com/bookings.jsp?groupID=2388304&hotelID=102336">here</a>. Alternatively, you may call the Tillary Hotel to reserve your room. Please mention "CUNY Math Conference" for reservation.
+                </p>
+                <p class="mb-0">
+                    <b>Hotel Information:</b> The Tillary Hotel, 85 Flatbush Ave Ext, Brooklyn, NY 11201. +1 718-329-9537
+                </p>
+            </div>
+        </section>
+
+        <hr class="m-0">
+
+        <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="links">
+            <div class="my-auto">
+                <h2 class="mb-5"> Links <a href="#about"><i class="fa fa-arrow-up"></i></a></h2>
+                <ul class="fa-ul mb-0">
+                    <li>
+                        <i class="fa-li fa fa-angle-double-right"></i>
+                        <a href="http://cuny.edu">CUNY website</a>
+                    </li>
+                    <li>
+                        <i class="fa-li fa fa-angle-double-right"></i>
+                        <a href="https://goo.gl/maps/xhisnnEL9J62">Restaurants near Campus</a>
+                    </li>
+                    <li>
+                        <i class="fa-li fa fa-angle-double-right"></i>
+                        <a href="http://fsw01.bcc.cuny.edu/mehdi.lejmi/">Mehdi Lejmi's webpage</a>
+                    </li>
+                    <li>
+                        <i class="fa-li fa fa-angle-double-right"></i>
+                        <a href="http://canerkoca.com">Caner Koca's webpage</a>
+                    </li>
+                    <li>
+                        <i class="fa-li fa fa-angle-double-right"></i>
+                        . . .
+                    </li>
+
+                </ul>
+
+            </div>
+        </section>
+
+    </div>
+
+    <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="photos">
+        <div class="my-auto">
+            <h2 class="mb-5"> Photos <a href="#about"><i class="fa fa-arrow-up"></i></a></h2>
+
+            <div class="container">
+                <div class="row">
+              
+                    <!--Next row containing the respective images in 3x4 grids starts here -->
+                    <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                        <a class="thumbnail" href="photos/apostolov.jpg">
+                            <img class="img-responsive" src="photos/apostolovtn.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                        <a class="thumbnail" href="photos/darvas.jpg">
+                            <img class="img-responsive" src="photos/darvastn.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                        <a class="thumbnail" href="photos/friedman.jpg">
+                            <img class="img-responsive" src="photos/friedmantn.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                        <a class="thumbnail" href="photos/he.jpg">
+                            <img class="img-responsive" src="photos/hetn.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                        <a class="thumbnail" href="photos/huang.jpg">
+                            <img class="img-responsive" src="photos/huangtn.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                        <a class="thumbnail" href="photos/lebrun.jpg">
+                            <img class="img-responsive" src="photos/lebruntn.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                        <a class="thumbnail" href="photos/lejmi.jpg">
+                            <img class="img-responsive" src="photos/lejmitn.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                        <a class="thumbnail" href="photos/sektnan.jpg">
+                            <img class="img-responsive" src="photos/sektnantn.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                        <a class="thumbnail" href="photos/sibley.jpg">
+                            <img class="img-responsive" src="photos/sibleytn.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                        <a class="thumbnail" href="photos/group.jpg">
+                            <img class="img-responsive" src="photos/grouptn.jpg" alt="">
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/resume.min.js"></script>
+
+
+
+</body>
+
+</html>
